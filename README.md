@@ -92,11 +92,11 @@ customer confidentiality.
 > still gets 98.8% accuracy while catching zero fraud.
 
 ---
-## 🛠️ Tech Stack
+## Tech Stack
 Python · Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn · Google Colab
 
 ---
 
-## 📄 Citation
+## Citation
 Jesus et al. "Turning the Tables: Biased, Imbalanced, Dynamic
 Tabular Datasets for ML Evaluation." NeurIPS 2022.
