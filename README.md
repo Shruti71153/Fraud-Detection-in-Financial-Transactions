@@ -6,7 +6,7 @@ fraudulent bank account opening applications.
 
 ---
 
-## Objectives
+## Objective
 - Perform EDA to find fraud patterns and anomalies
 - Handle hidden missing values (-1 sentinel) and class imbalance
 - Study relationship between demographics, device info, and fraud
@@ -21,10 +21,8 @@ Developed by Feedzai Research
 🔗 [Kaggle Link](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022)
 
 - 1 million rows, 32 features
-- Target: fraud_bool (0 = Genuine, 1 = Fraud)
+- Target: fraud_bool (0 = Genuine / Legitimate Application, 1 = Fraudulent Application)
 - Fraud rate: ~1% — severely imbalanced
-
----
 
 ## Dataset Description
 The **Bank Account Fraud (BAF) Dataset Suite** is a synthetic yet
@@ -39,10 +37,6 @@ customer confidentiality.
 | Target Variable | fraud_bool |
 | Fraud Rate | ~1.18% |
 | Time Period | 8 months (Month 0 to Month 7) |
-
-### Target Variable
-- **0** — Genuine / Legitimate Application
-- **1** — Fraudulent Application
   
 ### Important Features:
 
