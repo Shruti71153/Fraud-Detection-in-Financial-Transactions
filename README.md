@@ -1,5 +1,4 @@
 # 🏦Fraud-Detection-in-Financial-Transactions
----
 Financial fraud is a growing threat in the era of digital banking.
 Traditional detection methods often fail to catch sophisticated fraud
 patterns in real time. This project uses machine learning to detect
