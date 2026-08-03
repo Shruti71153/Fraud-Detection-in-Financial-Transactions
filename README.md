@@ -45,7 +45,7 @@ customer confidentiality.
 | Time Period | 8 months (Month 0 to Month 7) |
 
 ### Target Variable
-
+| | |
 |-------|---------|
 | 0 | Genuine / Legitimate Application |
 | 1 | Fraudulent Application |
@@ -63,7 +63,7 @@ customer confidentiality.
 ### Exploratory Data Analysis (EDA) 
 · Target Distribution · Fraud vs Non-Fraud · Feature Distributions · Correlation Analysis · Pair Plot · Missing Value Analysis
 
-
+| | |
 |---------|----------|
 | 98.82% legitimate vs 1.18% fraud — severe imbalance | class_weight='balanced' in Random Forest |
 | Higher fraud in unemployed, free email users, foreign requests | Used as key features in model |
@@ -81,7 +81,7 @@ customer confidentiality.
  - Robust to outliers
 
 **Why NOT other models?**
-
+| | |
 |-------|----------------|
 | Logistic Regression | Assumes linearity — fraud patterns are non-linear |
 | KNN | Too slow on 1 million rows |
