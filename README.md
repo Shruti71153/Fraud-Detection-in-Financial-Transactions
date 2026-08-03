@@ -63,7 +63,7 @@ customer confidentiality.
 
 | | |
 |---------|----------|
-| 98.82% legitimate vs 1.18% fraud — severe imbalance | class_weight='balanced' in Random Forest |
+| 98.82% legitimate vs 1.18% fraud — severe imbalance | class_weight='balanced'|
 | Higher fraud in unemployed, free email users, foreign requests | Used as key features in model |
 | Fraud rate rises month over month (temporal drift) | Noted as deployment consideration |
 | -1 sentinel values in 6 columns (not missing — not applicable) | Kept as-is + binary flag columns created |
@@ -79,7 +79,7 @@ customer confidentiality.
  - Robust to outliers
 
 **Why NOT other models?**
-| | |
+|Model | Reason|
 |-------|----------------|
 | Logistic Regression | Assumes linearity — fraud patterns are non-linear |
 | KNN | Too slow on 1 million rows |
