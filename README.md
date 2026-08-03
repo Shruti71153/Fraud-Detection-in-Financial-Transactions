@@ -45,23 +45,27 @@ customer confidentiality.
 | Time Period | 8 months (Month 0 to Month 7) |
 
 ### Target Variable
-| Value | Meaning |
+| | |
 |-------|---------|
 | 0 | Genuine / Legitimate Application |
 | 1 | Fraudulent Application |
 ### Important Features:
-credit_risk_score
-proposed_credit_limit
-customer_age
-income
-employment_status
-housing_status
-behavioural indicators
+
+- Credit_risk_score
+- Proposed_credit_limit
+- Customer_age
+- Income
+- Employment_status
+- Housing_status
+- Behavioural indicators
 
 ---
 ### Exploratory Data Analysis (EDA) 
 · Target Distribution · Fraud vs Non-Fraud · Feature Distributions · Correlation Analysis · Pair Plot · Missing Value Analysis
-| 98.82% legitimate vs 1.18% fraud — severe imbalance | class_weight='balanced'|
+
+| | |
+|---------|----------|
+| 98.82% legitimate vs 1.18% fraud — severe imbalance | class_weight='balanced' in Random Forest |
 | Higher fraud in unemployed, free email users, foreign requests | Used as key features in model |
 | Fraud rate rises month over month (temporal drift) | Noted as deployment consideration |
 | -1 sentinel values in 6 columns (not missing — not applicable) | Kept as-is + binary flag columns created |
@@ -71,10 +75,13 @@ behavioural indicators
 ---
 ## ML Model- Random Forest Classifier
 **Why Random Forest?**
- handles imbalance, negatives(no mathematical issues), mixed features, large data + gives feature importance and robust to outliers
+
+ - Handles imbalance, negatives(no mathematical issues) and mixed features
+ - Large data + gives feature importance 
+ - Robust to outliers
 
 **Why NOT other models?**
-| Model | Reason Rejected |
+| | |
 |-------|----------------|
 | Logistic Regression | Assumes linearity — fraud patterns are non-linear |
 | KNN | Too slow on 1 million rows |
