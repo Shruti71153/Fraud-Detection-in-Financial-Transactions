@@ -1,5 +1,4 @@
-# Fraud-Detection-in-Financial-Transactions
-# 🏦 Bank Account Fraud Detection | NeurIPS 2022
+# 🏦Fraud-Detection-in-Financial-Transactions
 ---
 Financial fraud is a growing threat in the era of digital banking.
 Traditional detection methods often fail to catch sophisticated fraud
