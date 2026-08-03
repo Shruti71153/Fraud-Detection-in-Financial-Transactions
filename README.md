@@ -3,9 +3,7 @@
 Financial fraud is a growing threat in the era of digital banking.
 Traditional detection methods often fail to catch sophisticated fraud
 patterns in real time. This project uses machine learning to detect
-fraudulent bank account opening applications using the BAF Dataset
-(NeurIPS 2022) — a realistic, large-scale dataset built from real
-banking data.
+fraudulent bank account opening applications.
 
 ---
 
