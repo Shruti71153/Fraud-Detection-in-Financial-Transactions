@@ -44,10 +44,9 @@ customer confidentiality.
 | Time Period | 8 months (Month 0 to Month 7) |
 
 ### Target Variable
-| | |
-|-------|---------|
-| 0 | Genuine / Legitimate Application |
-| 1 | Fraudulent Application |
+- **0** — Genuine / Legitimate Application
+- **1** — Fraudulent Application
+  
 ### Important Features:
 
 - Credit_risk_score
